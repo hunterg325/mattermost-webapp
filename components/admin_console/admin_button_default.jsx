@@ -19,7 +19,7 @@ export default class AdminButtonDefault extends React.Component {
     static propTypes = {
         onClick: PropTypes.func.isRequired,
         className: PropTypes.string,
-        children: PropTypes.element.isRequired,
+        children: PropTypes.string.isRequired,
     }
     render() {
         return (
